@@ -1,10 +1,4 @@
 {
-  "name": "OpenVPN Client",
-  "version": "0.3",
-  "slug": "openvpn-client",
-  "description": "Connect Home Assistant to a remote VPN server",
-  "url": "https://github.com/dale3h/homeassistant-openvpn-client/tree/addon-repo",
-  "startup": "application",
   "arch": [
     "aarch64",
     "amd64",
@@ -13,17 +7,12 @@
     "i386"
   ],
   "boot": "auto",
+  "description": "Connect Home Assistant to a remote VPN server",
   "host_network": true,
-  "privileged": ["NET_ADMIN"],
   "map": [
     "share:rw"
   ],
-  "ports": {
-    "8090/tcp": 8090
-  },
-  "ports_description": {
-    "8090/tcp": "Credential upload interface"
-  },
+  "name": "OpenVPN Client",
   "options": {
     "config": [
       "client",
@@ -45,7 +34,16 @@
       "remote <SERVER ADRESS> <PORT>"
     ]
   },
+  "privileged": [
+    "NET_ADMIN"
+  ],
   "schema": {
-    "config": ["str"]
-  }
+    "config": [
+      "str"
+    ]
+  },
+  "slug": "openvpn-client",
+  "startup": "application",
+  "url": "https://github.com/aem09/homeassistant-openvpn-client",
+  "version": "0.3"
 }
