@@ -163,10 +163,10 @@ fi
 setup_openvpn_config
 
 # start the web server as background task
-start_webserver &
+#start_webserver &
 
 # wait until the user uploaded the configuration files
-wait_configuration
+#wait_configuration
 
 log "Setup the VPN connection with the following OpenVPN configuration."
 
