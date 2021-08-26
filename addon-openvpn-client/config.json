@@ -1,6 +1,6 @@
 {
   "name": "OpenVPN Client",
-  "version": "0.2.9",
+  "version": "0.3",
   "slug": "openvpn-client",
   "description": "Connect Home Assistant to a remote VPN server",
   "url": "https://github.com/dale3h/homeassistant-openvpn-client/tree/addon-repo",
