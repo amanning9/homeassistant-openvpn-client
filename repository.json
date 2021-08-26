@@ -1,5 +1,5 @@
 {
+  "maintainer": "Alex <github@alex-m.co.uk>",
   "name": "Home Assistant Add-on: OpenVPN Client",
-  "url": "https://github.com/dale3h/homeassistant-openvpn-client",
-  "maintainer": "Dale Higgs <@dale3h>"
+  "url": "https://github.com/aem09/homeassistant-openvpn-client"
 }
